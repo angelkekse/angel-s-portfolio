@@ -14,3 +14,82 @@
     url("//db.onlinewebfonts.com/t/4d8683dbc436404ae093c1e7cbe5d551.svg#Banks Miles Double Line W01")
       format("svg");
 }
+
+:root {
+  --primary-color: #ff0000;
+  --secondary-color: #ffc0cb;
+  --tertiary-color: #ff00ff;
+}
+
+* {
+  cursor: crosshair;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Banks Miles Double Line W01";
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 72px;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 54px;
+}
+
+h3 {
+  color: var(--tertiary-color);
+  font-size: 44px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+a:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+  text-decoration-line: line-through;
+  text-decoration-thickness: 44px;
+  text-decoration-color: rgba(255, 0, 255, 0.5);
+}
+
+img {
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .hide {
+    display: none;
+  }
+}
