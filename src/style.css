@@ -75,6 +75,10 @@ img {
   border-radius: 50px;
 }
 
+.not-hero {
+  height: 150px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
