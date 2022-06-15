@@ -1,0 +1,16 @@
+@import url(//db.onlinewebfonts.com/c/4d8683dbc436404ae093c1e7cbe5d551?family=Banks+Miles+Double+Line+W01);
+
+@font-face {
+  font-family: "Banks Miles Double Line W01";
+  src: url("//db.onlinewebfonts.com/t/4d8683dbc436404ae093c1e7cbe5d551.eot");
+  src: url("//db.onlinewebfonts.com/t/4d8683dbc436404ae093c1e7cbe5d551.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4d8683dbc436404ae093c1e7cbe5d551.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/4d8683dbc436404ae093c1e7cbe5d551.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/4d8683dbc436404ae093c1e7cbe5d551.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/4d8683dbc436404ae093c1e7cbe5d551.svg#Banks Miles Double Line W01")
+      format("svg");
+}
