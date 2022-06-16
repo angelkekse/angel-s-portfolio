@@ -25,6 +25,33 @@
   cursor: grab;
 }
 
+nav {
+  background-color: #fff;
+  padding: 13px;
+  margin: 0 0 13px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+nav a {
+  color: #000;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3 {
@@ -47,6 +74,12 @@ h3 {
   font-size: 44px;
 }
 
+h4 {
+  font-family: "Banks Miles Double Line W01";
+  color: var(--secondary-color);
+  font-size: 34px;
+}
+
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
@@ -56,16 +89,16 @@ p {
 a {
   text-decoration: none;
   font-family: "Banks Miles Double Line W01";
-  color: var(--tertiary-color);
-  transition: all 100ms ease-in-out;
+  color: #0000ff;
+  transition: all 150ms ease-in-out;
 }
 
 a:hover {
   cursor: pointer;
-  color: var(--primary-color);
+  color: #0000ff;
   text-decoration-line: line-through;
   text-decoration-thickness: 14px;
-  text-decoration-color: rgba(255, 0, 255, 0.5);
+  text-decoration-color: rgba(0, 221, 255, 0.5);
 }
 
 img {
@@ -81,7 +114,6 @@ img {
 
 .hero {
   background: var(--secondary-color);
-  text-align: center;
 }
 
 @media (max-width: 500px) {
@@ -98,8 +130,17 @@ img {
     font-size: 22px;
   }
 
+  h4 {
+    font-size: 18px;
+  }
+
   p {
     font-size: 12px;
+  }
+
+  nav {
+    font-size: 8px;
+    margin: 0;
   }
 
   .hide {
