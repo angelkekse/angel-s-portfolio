@@ -48,7 +48,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--primary-color);
+  color: #0000ff;
   text-decoration: none;
 }
 
