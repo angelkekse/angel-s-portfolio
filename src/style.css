@@ -19,6 +19,7 @@
   --primary-color: #ff0000;
   --secondary-color: #ffc0cb;
   --tertiary-color: #ff00ff;
+  --quarternary-color: #449fa1;
 }
 
 * {
@@ -48,7 +49,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: #0000ff;
+  color: var(--quarternary-color);
   text-decoration: none;
 }
 
@@ -89,16 +90,16 @@ p {
 a {
   text-decoration: none;
   font-family: "Banks Miles Double Line W01";
-  color: #0000ff;
+  color: var(--quarternary-color);
   transition: all 150ms ease-in-out;
 }
 
 a:hover {
   cursor: pointer;
-  color: #0000ff;
+  color: var(--quarternary-color);
   text-decoration-line: line-through;
   text-decoration-thickness: 14px;
-  text-decoration-color: rgba(0, 221, 255, 0.5);
+  text-decoration-color: #ff00ff33;
 }
 
 img {
@@ -106,6 +107,15 @@ img {
   display: block;
   margin: 0 auto;
   border-radius: 4px;
+}
+
+.footer-link {
+  color: #000;
+}
+
+.footer-link:hover {
+  color: var(--quarternary-color);
+  text-decoration: none;
 }
 
 .not-hero {
