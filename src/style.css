@@ -126,6 +126,10 @@ img {
   background: var(--secondary-color);
 }
 
+.tiny {
+  font-size: xx-small;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 72px;
