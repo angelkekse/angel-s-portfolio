@@ -153,6 +153,10 @@ img {
     font-size: 8px;
     margin: 0;
   }
+
+  .not-hero {
+    max-height: 120px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -181,6 +185,10 @@ img {
   nav {
     font-size: 8px;
     margin: 0;
+  }
+
+  .not-hero {
+    max-height: 90px;
   }
 
   .hide {
