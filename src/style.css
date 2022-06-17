@@ -126,14 +126,43 @@ img {
   background: var(--secondary-color);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   h1 {
-    font-size: 36px;
+    font-size: 72px;
     letter-spacing: 1px;
   }
 
   h2 {
-    font-size: 27px;
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 33px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  nav {
+    font-size: 8px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 48px;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    font-size: 30px;
   }
 
   h3 {
@@ -146,6 +175,7 @@ img {
 
   p {
     font-size: 12px;
+    padding: 0;
   }
 
   nav {
