@@ -156,6 +156,7 @@ img {
 
   .not-hero {
     max-height: 120px;
+    margin: 0 auto 30px;
   }
 }
 
@@ -189,6 +190,7 @@ img {
 
   .not-hero {
     max-height: 90px;
+    margin: 0 auto 30px;
   }
 
   .hide {
